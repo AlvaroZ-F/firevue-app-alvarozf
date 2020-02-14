@@ -9,7 +9,7 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: process.env.NODE_ENV === 'production' ? '/firevue-app-alvarozf/' ? '/',
     proxyTable: {},
 
     // Various Dev Server settings
